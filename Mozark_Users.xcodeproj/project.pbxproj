@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34E5BD625FB82F500820780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BD525FB82F500820780 /* AppDelegate.swift */; };
+		C34E5BD825FB82F500820780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BD725FB82F500820780 /* SceneDelegate.swift */; };
+		C34E5BDA25FB82F500820780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BD925FB82F500820780 /* ViewController.swift */; };
+		C34E5BDD25FB82F500820780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34E5BDB25FB82F500820780 /* Main.storyboard */; };
+		C34E5BDF25FB82FA00820780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34E5BDE25FB82FA00820780 /* Assets.xcassets */; };
+		C34E5BE225FB82FA00820780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34E5BE025FB82FA00820780 /* LaunchScreen.storyboard */; };
+		C34E5BED25FB82FA00820780 /* Mozark_UsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BEC25FB82FA00820780 /* Mozark_UsersTests.swift */; };
+		C34E5BF825FB82FA00820780 /* Mozark_UsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BF725FB82FA00820780 /* Mozark_UsersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C34E5BE925FB82FA00820780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34E5BCA25FB82F400820780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34E5BD125FB82F400820780;
+			remoteInfo = Mozark_Users;
+		};
+		C34E5BF425FB82FA00820780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34E5BCA25FB82F400820780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34E5BD125FB82F400820780;
+			remoteInfo = Mozark_Users;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C34E5BD225FB82F400820780 /* Mozark_Users.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mozark_Users.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34E5BD525FB82F500820780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C34E5BD725FB82F500820780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C34E5BD925FB82F500820780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C34E5BDC25FB82F500820780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C34E5BDE25FB82FA00820780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C34E5BE125FB82FA00820780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C34E5BE325FB82FA00820780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34E5BE825FB82FA00820780 /* Mozark_UsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mozark_UsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34E5BEC25FB82FA00820780 /* Mozark_UsersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozark_UsersTests.swift; sourceTree = "<group>"; };
+		C34E5BEE25FB82FA00820780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34E5BF325FB82FA00820780 /* Mozark_UsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mozark_UsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34E5BF725FB82FA00820780 /* Mozark_UsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozark_UsersUITests.swift; sourceTree = "<group>"; };
+		C34E5BF925FB82FA00820780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34E5BCF25FB82F400820780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E5BE525FB82FA00820780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E5BF025FB82FA00820780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34E5BC925FB82F400820780 = {
+			isa = PBXGroup;
+			children = (
+				C34E5BD425FB82F400820780 /* Mozark_Users */,
+				C34E5BEB25FB82FA00820780 /* Mozark_UsersTests */,
+				C34E5BF625FB82FA00820780 /* Mozark_UsersUITests */,
+				C34E5BD325FB82F400820780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C34E5BD325FB82F400820780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5BD225FB82F400820780 /* Mozark_Users.app */,
+				C34E5BE825FB82FA00820780 /* Mozark_UsersTests.xctest */,
+				C34E5BF325FB82FA00820780 /* Mozark_UsersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34E5BD425FB82F400820780 /* Mozark_Users */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5BD525FB82F500820780 /* AppDelegate.swift */,
+				C34E5BD725FB82F500820780 /* SceneDelegate.swift */,
+				C34E5BD925FB82F500820780 /* ViewController.swift */,
+				C34E5BDB25FB82F500820780 /* Main.storyboard */,
+				C34E5BDE25FB82FA00820780 /* Assets.xcassets */,
+				C34E5BE025FB82FA00820780 /* LaunchScreen.storyboard */,
+				C34E5BE325FB82FA00820780 /* Info.plist */,
+			);
+			path = Mozark_Users;
+			sourceTree = "<group>";
+		};
+		C34E5BEB25FB82FA00820780 /* Mozark_UsersTests */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5BEC25FB82FA00820780 /* Mozark_UsersTests.swift */,
+				C34E5BEE25FB82FA00820780 /* Info.plist */,
+			);
+			path = Mozark_UsersTests;
+			sourceTree = "<group>";
+		};
+		C34E5BF625FB82FA00820780 /* Mozark_UsersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5BF725FB82FA00820780 /* Mozark_UsersUITests.swift */,
+				C34E5BF925FB82FA00820780 /* Info.plist */,
+			);
+			path = Mozark_UsersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34E5BD125FB82F400820780 /* Mozark_Users */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34E5BFC25FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_Users" */;
+			buildPhases = (
+				C34E5BCE25FB82F400820780 /* Sources */,
+				C34E5BCF25FB82F400820780 /* Frameworks */,
+				C34E5BD025FB82F400820780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mozark_Users;
+			productName = Mozark_Users;
+			productReference = C34E5BD225FB82F400820780 /* Mozark_Users.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C34E5BE725FB82FA00820780 /* Mozark_UsersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34E5BFF25FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_UsersTests" */;
+			buildPhases = (
+				C34E5BE425FB82FA00820780 /* Sources */,
+				C34E5BE525FB82FA00820780 /* Frameworks */,
+				C34E5BE625FB82FA00820780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34E5BEA25FB82FA00820780 /* PBXTargetDependency */,
+			);
+			name = Mozark_UsersTests;
+			productName = Mozark_UsersTests;
+			productReference = C34E5BE825FB82FA00820780 /* Mozark_UsersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C34E5BF225FB82FA00820780 /* Mozark_UsersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34E5C0225FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_UsersUITests" */;
+			buildPhases = (
+				C34E5BEF25FB82FA00820780 /* Sources */,
+				C34E5BF025FB82FA00820780 /* Frameworks */,
+				C34E5BF125FB82FA00820780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34E5BF525FB82FA00820780 /* PBXTargetDependency */,
+			);
+			name = Mozark_UsersUITests;
+			productName = Mozark_UsersUITests;
+			productReference = C34E5BF325FB82FA00820780 /* Mozark_UsersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34E5BCA25FB82F400820780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "khushboo patel";
+				TargetAttributes = {
+					C34E5BD125FB82F400820780 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					C34E5BE725FB82FA00820780 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C34E5BD125FB82F400820780;
+					};
+					C34E5BF225FB82FA00820780 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C34E5BD125FB82F400820780;
+					};
+				};
+			};
+			buildConfigurationList = C34E5BCD25FB82F400820780 /* Build configuration list for PBXProject "Mozark_Users" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C34E5BC925FB82F400820780;
+			productRefGroup = C34E5BD325FB82F400820780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34E5BD125FB82F400820780 /* Mozark_Users */,
+				C34E5BE725FB82FA00820780 /* Mozark_UsersTests */,
+				C34E5BF225FB82FA00820780 /* Mozark_UsersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34E5BD025FB82F400820780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E5BE225FB82FA00820780 /* LaunchScreen.storyboard in Resources */,
+				C34E5BDF25FB82FA00820780 /* Assets.xcassets in Resources */,
+				C34E5BDD25FB82F500820780 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E5BE625FB82FA00820780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E5BF125FB82FA00820780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34E5BCE25FB82F400820780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E5BDA25FB82F500820780 /* ViewController.swift in Sources */,
+				C34E5BD625FB82F500820780 /* AppDelegate.swift in Sources */,
+				C34E5BD825FB82F500820780 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E5BE425FB82FA00820780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E5BED25FB82FA00820780 /* Mozark_UsersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E5BEF25FB82FA00820780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E5BF825FB82FA00820780 /* Mozark_UsersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34E5BEA25FB82FA00820780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34E5BD125FB82F400820780 /* Mozark_Users */;
+			targetProxy = C34E5BE925FB82FA00820780 /* PBXContainerItemProxy */;
+		};
+		C34E5BF525FB82FA00820780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34E5BD125FB82F400820780 /* Mozark_Users */;
+			targetProxy = C34E5BF425FB82FA00820780 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C34E5BDB25FB82F500820780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34E5BDC25FB82F500820780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C34E5BE025FB82FA00820780 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34E5BE125FB82FA00820780 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C34E5BFA25FB82FA00820780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C34E5BFB25FB82FA00820780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34E5BFD25FB82FA00820780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mozark_Users/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mozark-Users";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C34E5BFE25FB82FA00820780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mozark_Users/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mozark-Users";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C34E5C0025FB82FA00820780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mozark_UsersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mozark-UsersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mozark_Users.app/Mozark_Users";
+			};
+			name = Debug;
+		};
+		C34E5C0125FB82FA00820780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mozark_UsersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mozark-UsersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mozark_Users.app/Mozark_Users";
+			};
+			name = Release;
+		};
+		C34E5C0325FB82FA00820780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mozark_UsersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mozark-UsersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mozark_Users;
+			};
+			name = Debug;
+		};
+		C34E5C0425FB82FA00820780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mozark_UsersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Mozark-UsersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mozark_Users;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34E5BCD25FB82F400820780 /* Build configuration list for PBXProject "Mozark_Users" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34E5BFA25FB82FA00820780 /* Debug */,
+				C34E5BFB25FB82FA00820780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34E5BFC25FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_Users" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34E5BFD25FB82FA00820780 /* Debug */,
+				C34E5BFE25FB82FA00820780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34E5BFF25FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_UsersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34E5C0025FB82FA00820780 /* Debug */,
+				C34E5C0125FB82FA00820780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34E5C0225FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_UsersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34E5C0325FB82FA00820780 /* Debug */,
+				C34E5C0425FB82FA00820780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34E5BCA25FB82F400820780 /* Project object */;
+}
