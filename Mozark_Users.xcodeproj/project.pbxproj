@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047A49F49301F9C5ABCF3E34 /* Pods_Mozark_Users_Mozark_UsersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65756E43BD2A1E9D1F569E2D /* Pods_Mozark_Users_Mozark_UsersUITests.framework */; };
+		A6B3E95F60974A4A6761CAE5 /* Pods_Mozark_Users.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ACAFAA25877E174E0CCD28 /* Pods_Mozark_Users.framework */; };
 		C34E5BD625FB82F500820780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BD525FB82F500820780 /* AppDelegate.swift */; };
 		C34E5BD825FB82F500820780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BD725FB82F500820780 /* SceneDelegate.swift */; };
-		C34E5BDA25FB82F500820780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BD925FB82F500820780 /* ViewController.swift */; };
+		C34E5BDA25FB82F500820780 /* User_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BD925FB82F500820780 /* User_ViewController.swift */; };
 		C34E5BDD25FB82F500820780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34E5BDB25FB82F500820780 /* Main.storyboard */; };
 		C34E5BDF25FB82FA00820780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34E5BDE25FB82FA00820780 /* Assets.xcassets */; };
 		C34E5BE225FB82FA00820780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34E5BE025FB82FA00820780 /* LaunchScreen.storyboard */; };
 		C34E5BED25FB82FA00820780 /* Mozark_UsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BEC25FB82FA00820780 /* Mozark_UsersTests.swift */; };
 		C34E5BF825FB82FA00820780 /* Mozark_UsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5BF725FB82FA00820780 /* Mozark_UsersUITests.swift */; };
+		C34E5C0E25FB849000820780 /* user_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5C0D25FB849000820780 /* user_model.swift */; };
+		C34E5C1225FB85A200820780 /* user_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5C1125FB85A200820780 /* user_TVC.swift */; };
+		C34E5C1825FB888500820780 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5C1525FB888500820780 /* NetworkConfiguration.swift */; };
+		C34E5C1925FB888500820780 /* APIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5C1625FB888500820780 /* APIList.swift */; };
+		C34E5C1A25FB888500820780 /* NetworkAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34E5C1725FB888500820780 /* NetworkAPIManager.swift */; };
+		C35F0D1F25FF854200636EED /* User_TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F0D1E25FF854200636EED /* User_TestCase.swift */; };
+		C35F0D2325FF896E00636EED /* User_CModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C35F0D2125FF896D00636EED /* User_CModel.xcdatamodeld */; };
+		C35F0D2525FF9FAE00636EED /* Localusers_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F0D2425FF9FAE00636EED /* Localusers_VC.swift */; };
+		C36AB82225FB90FE00BFCE32 /* Details_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AB82125FB90FE00BFCE32 /* Details_VC.swift */; };
+		F27FEF564956041A68EDC8F1 /* Pods_Mozark_UsersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39CD174E705F0474DEC0B71 /* Pods_Mozark_UsersTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55ACAFAA25877E174E0CCD28 /* Pods_Mozark_Users.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mozark_Users.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65756E43BD2A1E9D1F569E2D /* Pods_Mozark_Users_Mozark_UsersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mozark_Users_Mozark_UsersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C09DA2A52FFB466239C922F /* Pods-Mozark_Users-Mozark_UsersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozark_Users-Mozark_UsersUITests.release.xcconfig"; path = "Target Support Files/Pods-Mozark_Users-Mozark_UsersUITests/Pods-Mozark_Users-Mozark_UsersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C8E4A516A7C96B4F6580B22 /* Pods-Mozark_Users.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozark_Users.release.xcconfig"; path = "Target Support Files/Pods-Mozark_Users/Pods-Mozark_Users.release.xcconfig"; sourceTree = "<group>"; };
+		9D062E749E1A89830AF49065 /* Pods-Mozark_Users-Mozark_UsersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozark_Users-Mozark_UsersUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mozark_Users-Mozark_UsersUITests/Pods-Mozark_Users-Mozark_UsersUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C34E5BD225FB82F400820780 /* Mozark_Users.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mozark_Users.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34E5BD525FB82F500820780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C34E5BD725FB82F500820780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C34E5BD925FB82F500820780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C34E5BD925FB82F500820780 /* User_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_ViewController.swift; sourceTree = "<group>"; };
 		C34E5BDC25FB82F500820780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C34E5BDE25FB82FA00820780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C34E5BE125FB82FA00820780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,19 @@
 		C34E5BF325FB82FA00820780 /* Mozark_UsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mozark_UsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34E5BF725FB82FA00820780 /* Mozark_UsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozark_UsersUITests.swift; sourceTree = "<group>"; };
 		C34E5BF925FB82FA00820780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34E5C0D25FB849000820780 /* user_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user_model.swift; sourceTree = "<group>"; };
+		C34E5C1125FB85A200820780 /* user_TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user_TVC.swift; sourceTree = "<group>"; };
+		C34E5C1525FB888500820780 /* NetworkConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
+		C34E5C1625FB888500820780 /* APIList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIList.swift; sourceTree = "<group>"; };
+		C34E5C1725FB888500820780 /* NetworkAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPIManager.swift; sourceTree = "<group>"; };
+		C35F0D1E25FF854200636EED /* User_TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_TestCase.swift; sourceTree = "<group>"; };
+		C35F0D2225FF896E00636EED /* User_CModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User_CModel.xcdatamodel; sourceTree = "<group>"; };
+		C35F0D2425FF9FAE00636EED /* Localusers_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localusers_VC.swift; sourceTree = "<group>"; };
+		C36AB82125FB90FE00BFCE32 /* Details_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details_VC.swift; sourceTree = "<group>"; };
+		D39CD174E705F0474DEC0B71 /* Pods_Mozark_UsersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mozark_UsersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B613F78009218377C7A3C6 /* Pods-Mozark_Users.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozark_Users.debug.xcconfig"; path = "Target Support Files/Pods-Mozark_Users/Pods-Mozark_Users.debug.xcconfig"; sourceTree = "<group>"; };
+		E7096CD026BB46867FA09888 /* Pods-Mozark_UsersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozark_UsersTests.release.xcconfig"; path = "Target Support Files/Pods-Mozark_UsersTests/Pods-Mozark_UsersTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFDD4BEF6D64B1DC7950AB03 /* Pods-Mozark_UsersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mozark_UsersTests.debug.xcconfig"; path = "Target Support Files/Pods-Mozark_UsersTests/Pods-Mozark_UsersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B3E95F60974A4A6761CAE5 /* Pods_Mozark_Users.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27FEF564956041A68EDC8F1 /* Pods_Mozark_UsersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047A49F49301F9C5ABCF3E34 /* Pods_Mozark_Users_Mozark_UsersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,8 @@
 				C34E5BEB25FB82FA00820780 /* Mozark_UsersTests */,
 				C34E5BF625FB82FA00820780 /* Mozark_UsersUITests */,
 				C34E5BD325FB82F400820780 /* Products */,
+				DE995075D559F16386E54E6C /* Pods */,
+				E76D6492C367413A9EF821FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +134,13 @@
 		C34E5BD425FB82F400820780 /* Mozark_Users */ = {
 			isa = PBXGroup;
 			children = (
-				C34E5BD525FB82F500820780 /* AppDelegate.swift */,
-				C34E5BD725FB82F500820780 /* SceneDelegate.swift */,
-				C34E5BD925FB82F500820780 /* ViewController.swift */,
-				C34E5BDB25FB82F500820780 /* Main.storyboard */,
+				C34E5C1325FB880100820780 /* Custom Classes  */,
+				C34E5C0F25FB857800820780 /* View */,
+				C34E5C0C25FB843C00820780 /* Model */,
+				C34E5C0725FB831B00820780 /* Delegates  */,
+				C34E5C0925FB832D00820780 /* Controllers */,
+				C34E5C0525FB830400820780 /* Storyboard */,
 				C34E5BDE25FB82FA00820780 /* Assets.xcassets */,
-				C34E5BE025FB82FA00820780 /* LaunchScreen.storyboard */,
 				C34E5BE325FB82FA00820780 /* Info.plist */,
 			);
 			path = Mozark_Users;
@@ -115,6 +151,7 @@
 			children = (
 				C34E5BEC25FB82FA00820780 /* Mozark_UsersTests.swift */,
 				C34E5BEE25FB82FA00820780 /* Info.plist */,
+				C35F0D1E25FF854200636EED /* User_TestCase.swift */,
 			);
 			path = Mozark_UsersTests;
 			sourceTree = "<group>";
@@ -128,6 +165,108 @@
 			path = Mozark_UsersUITests;
 			sourceTree = "<group>";
 		};
+		C34E5C0525FB830400820780 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5BDB25FB82F500820780 /* Main.storyboard */,
+				C34E5BE025FB82FA00820780 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C34E5C0725FB831B00820780 /* Delegates  */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5BD525FB82F500820780 /* AppDelegate.swift */,
+				C34E5BD725FB82F500820780 /* SceneDelegate.swift */,
+			);
+			path = "Delegates ";
+			sourceTree = "<group>";
+		};
+		C34E5C0925FB832D00820780 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5BD925FB82F500820780 /* User_ViewController.swift */,
+				C36AB82125FB90FE00BFCE32 /* Details_VC.swift */,
+				C35F0D2425FF9FAE00636EED /* Localusers_VC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C34E5C0C25FB843C00820780 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5C0D25FB849000820780 /* user_model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C34E5C0F25FB857800820780 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5C1025FB858100820780 /* Table View Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C34E5C1025FB858100820780 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5C1125FB85A200820780 /* user_TVC.swift */,
+			);
+			path = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		C34E5C1325FB880100820780 /* Custom Classes  */ = {
+			isa = PBXGroup;
+			children = (
+				C35F0D2025FF893B00636EED /* Persistent Storage */,
+				C34E5C1425FB887500820780 /* URL Manager */,
+			);
+			path = "Custom Classes ";
+			sourceTree = "<group>";
+		};
+		C34E5C1425FB887500820780 /* URL Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C34E5C1625FB888500820780 /* APIList.swift */,
+				C34E5C1725FB888500820780 /* NetworkAPIManager.swift */,
+				C34E5C1525FB888500820780 /* NetworkConfiguration.swift */,
+			);
+			path = "URL Manager";
+			sourceTree = "<group>";
+		};
+		C35F0D2025FF893B00636EED /* Persistent Storage */ = {
+			isa = PBXGroup;
+			children = (
+				C35F0D2125FF896D00636EED /* User_CModel.xcdatamodeld */,
+			);
+			path = "Persistent Storage";
+			sourceTree = "<group>";
+		};
+		DE995075D559F16386E54E6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5B613F78009218377C7A3C6 /* Pods-Mozark_Users.debug.xcconfig */,
+				8C8E4A516A7C96B4F6580B22 /* Pods-Mozark_Users.release.xcconfig */,
+				9D062E749E1A89830AF49065 /* Pods-Mozark_Users-Mozark_UsersUITests.debug.xcconfig */,
+				6C09DA2A52FFB466239C922F /* Pods-Mozark_Users-Mozark_UsersUITests.release.xcconfig */,
+				FFDD4BEF6D64B1DC7950AB03 /* Pods-Mozark_UsersTests.debug.xcconfig */,
+				E7096CD026BB46867FA09888 /* Pods-Mozark_UsersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E76D6492C367413A9EF821FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55ACAFAA25877E174E0CCD28 /* Pods_Mozark_Users.framework */,
+				65756E43BD2A1E9D1F569E2D /* Pods_Mozark_Users_Mozark_UsersUITests.framework */,
+				D39CD174E705F0474DEC0B71 /* Pods_Mozark_UsersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C34E5BFC25FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_Users" */;
 			buildPhases = (
+				3371F654946DCB61994EF147 /* [CP] Check Pods Manifest.lock */,
 				C34E5BCE25FB82F400820780 /* Sources */,
 				C34E5BCF25FB82F400820780 /* Frameworks */,
 				C34E5BD025FB82F400820780 /* Resources */,
+				D516BBB2B0B93DF494D4BA95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C34E5BFF25FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_UsersTests" */;
 			buildPhases = (
+				537D7FB1FFAB75CA468E9BBD /* [CP] Check Pods Manifest.lock */,
 				C34E5BE425FB82FA00820780 /* Sources */,
 				C34E5BE525FB82FA00820780 /* Frameworks */,
 				C34E5BE625FB82FA00820780 /* Resources */,
@@ -170,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C34E5C0225FB82FA00820780 /* Build configuration list for PBXNativeTarget "Mozark_UsersUITests" */;
 			buildPhases = (
+				D5B8D2D37DA298F2C7B88FA2 /* [CP] Check Pods Manifest.lock */,
 				C34E5BEF25FB82FA00820780 /* Sources */,
 				C34E5BF025FB82FA00820780 /* Frameworks */,
 				C34E5BF125FB82FA00820780 /* Resources */,
+				0DF103946A8E03A45CE4F8E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +398,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DF103946A8E03A45CE4F8E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mozark_Users-Mozark_UsersUITests/Pods-Mozark_Users-Mozark_UsersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mozark_Users-Mozark_UsersUITests/Pods-Mozark_Users-Mozark_UsersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mozark_Users-Mozark_UsersUITests/Pods-Mozark_Users-Mozark_UsersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3371F654946DCB61994EF147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mozark_Users-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		537D7FB1FFAB75CA468E9BBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mozark_UsersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D516BBB2B0B93DF494D4BA95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mozark_Users/Pods-Mozark_Users-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mozark_Users/Pods-Mozark_Users-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mozark_Users/Pods-Mozark_Users-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B8D2D37DA298F2C7B88FA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mozark_Users-Mozark_UsersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C34E5BCE25FB82F400820780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34E5BDA25FB82F500820780 /* ViewController.swift in Sources */,
+				C34E5C1225FB85A200820780 /* user_TVC.swift in Sources */,
+				C35F0D2525FF9FAE00636EED /* Localusers_VC.swift in Sources */,
+				C34E5C1A25FB888500820780 /* NetworkAPIManager.swift in Sources */,
+				C34E5BDA25FB82F500820780 /* User_ViewController.swift in Sources */,
+				C34E5C1925FB888500820780 /* APIList.swift in Sources */,
 				C34E5BD625FB82F500820780 /* AppDelegate.swift in Sources */,
+				C36AB82225FB90FE00BFCE32 /* Details_VC.swift in Sources */,
+				C35F0D2325FF896E00636EED /* User_CModel.xcdatamodeld in Sources */,
+				C34E5C0E25FB849000820780 /* user_model.swift in Sources */,
 				C34E5BD825FB82F500820780 /* SceneDelegate.swift in Sources */,
+				C34E5C1825FB888500820780 /* NetworkConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35F0D1F25FF854200636EED /* User_TestCase.swift in Sources */,
 				C34E5BED25FB82FA00820780 /* Mozark_UsersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,9 +688,11 @@
 		};
 		C34E5BFD25FB82FA00820780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B613F78009218377C7A3C6 /* Pods-Mozark_Users.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Mozark_Users/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +707,11 @@
 		};
 		C34E5BFE25FB82FA00820780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8E4A516A7C96B4F6580B22 /* Pods-Mozark_Users.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Mozark_Users/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,10 +726,12 @@
 		};
 		C34E5C0025FB82FA00820780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDD4BEF6D64B1DC7950AB03 /* Pods-Mozark_UsersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Mozark_UsersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -487,10 +749,12 @@
 		};
 		C34E5C0125FB82FA00820780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7096CD026BB46867FA09888 /* Pods-Mozark_UsersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Mozark_UsersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,6 +772,7 @@
 		};
 		C34E5C0325FB82FA00820780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D062E749E1A89830AF49065 /* Pods-Mozark_Users-Mozark_UsersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +792,7 @@
 		};
 		C34E5C0425FB82FA00820780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C09DA2A52FFB466239C922F /* Pods-Mozark_Users-Mozark_UsersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +850,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C35F0D2125FF896D00636EED /* User_CModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C35F0D2225FF896E00636EED /* User_CModel.xcdatamodel */,
+			);
+			currentVersion = C35F0D2225FF896E00636EED /* User_CModel.xcdatamodel */;
+			path = User_CModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C34E5BCA25FB82F400820780 /* Project object */;
 }
